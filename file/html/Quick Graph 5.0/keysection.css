@@ -1,0 +1,58 @@
+/* Formating of the Key Section of the Program */
+	
+#KeySection{
+	position: absolute;
+	top: 495px;
+	left: 0px;
+	width: 440px;
+	height: 130px;
+	border: black;
+	border-style: solid;
+	border-width: 10px;
+	background-color: yellow;
+}
+
+
+#KeySectionTitle{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	padding-top: 10px;
+	width: 440px;
+	height: 30px;
+	background-color: #CCCCCC;
+	color: #990000;
+}
+
+#KeySectionEquation{
+	position: absolute;
+	top: 40px;
+	left: 0px;
+	padding-top: 0px;
+	width: 440px;
+	height: 95px;
+	background-color: #DDDDDD;
+	color: #990000;
+	text-align: center;
+}
+
+#EquationOnly{
+	position: absolute;
+	top: 0px;
+	
+}
+
+#Correlation{
+	position: absolute;
+	top: 60px;
+	width: 440px;
+	left: 0px;
+	text-align: center;
+}
+
+.KeyTextBig{
+	font-family: sans-serif;
+	font-size: 16px;
+	text-align: center;
+	font-weight: bold;
+}

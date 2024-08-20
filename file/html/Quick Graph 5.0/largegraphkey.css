@@ -1,0 +1,57 @@
+/* This section is for the equation key for the large graph */
+#LargeGraphKey{
+	position: absolute;
+	top:80px;
+	left: 610px;
+	width: 295px;
+	height: 640px;
+	background-color: #CCCCCC;
+	display: block;
+	display: none;
+}
+
+#LargeGraphKeyEquation0{
+	position: absolute;
+	top:25px;
+	left: 10px;
+	width: 280px;
+	height: 90px;
+}
+
+#LargeGraphKeyEquation1{
+	position: absolute;
+	top:150px;
+	left: 10px;
+	width: 280px;
+	height: 90px;
+}
+
+#LargeGraphKeyEquation2{
+	position: absolute;
+	top:275px;
+	left: 10px;
+	width: 280px;
+	height: 90px;
+}
+
+#LargeGraphKeyEquation3{
+	position: absolute;
+	top:400px;
+	left: 10px;
+	width: 280px;
+	height: 90px;
+}
+
+#LargeGraphKeyEquation4{
+	position: absolute;
+	top:525px;
+	left: 10px;
+	width: 280px;
+	height: 90px;
+}
+
+.largekeytext{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:14pt;
+	text-align: center;
+}

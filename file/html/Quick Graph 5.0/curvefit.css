@@ -1,0 +1,194 @@
+/*. This is the section for things dealing with the curve fitting window */
+figcaption{
+	font-size: 9px;
+	font-family: sans-serif;
+	color: #990000;
+	text-align: center;
+	text-decoration: none;
+	margin: 0px;
+}
+
+figure{
+	width: 75px;
+	height: 75px;
+	margin: 0px;
+}
+
+.SetGraphType{
+	height: 75px;
+	width: 75px;
+}
+
+.graphtype{
+	height: 75px;
+	width: 75px;
+}
+
+/* This ID is for the area of the program that allows you to pick your graph type */
+
+#CurveFitSection{
+	position: absolute;
+	top: 0px;
+	width: 445px;
+	left: 0px;
+	height: 270px;
+	z-index: 3;
+	border: black;
+	background-color: #eeeeee;
+	display: none;
+}
+
+#CurveFitSectionTitle{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	width: 400px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 10pt;
+	color: #990000;
+	text-align: center;
+}
+
+#CloseCurveFitSection{
+	position: absolute;
+	top: 0px;
+	left: 410px;
+	height: 25px;
+	width: 25px;
+	text-align: center;
+}
+
+#ProportionalGraph{
+	position: absolute;
+	top: 50px;
+	left: 20px;
+}
+
+#LinearGraph{
+	position: absolute;
+	top: 50px;
+	left: 100px;
+}
+
+#SquaredGraph{
+	position: absolute;
+	top: 50px;
+	left: 180px;
+}
+
+#CubedGraph{
+	position: absolute;
+	top: 50px;
+	left: 260px;
+}
+
+#SquareRootGraph{
+	position: absolute;
+	top: 50px;
+	left: 340px;
+}
+
+#NoRelationshipGraph{
+	position: absolute;
+	top: 165px;
+	left: 20px;
+}
+
+#InverseGraph{
+	position: absolute;
+	top: 165px;
+	left: 100px;
+}
+
+#InverseSquaredGraph{
+	position: absolute;
+	top: 165px;
+	left: 180px;
+}
+
+#InverseSquareRootGraph{
+	position: absolute;
+	top: 165px;
+	left: 260px;
+}
+
+#ExponentialDecayGraph{
+	position: absolute;
+	top: 165px;
+	left: 340px;
+}
+
+
+/*. This area of the CSS will help you format the manual edit equation areas */
+
+#ManualEquationOverride{
+	position: absolute;
+	top: 0px;
+	width: 445px;
+	left: 0px;
+	height: 270px;
+	z-index: 3;
+	border: black;
+	background-color: #eeeeee;
+	display: none;
+}
+
+#CloseEquationOverrideSection{
+	position: absolute;
+	top: 0px;
+	left: 410px;
+	height: 25px;
+	width: 25px;
+	text-align: center;
+}
+
+.AdjustEquationTitle{
+	position: absolute;
+	top: 15px;
+	padding-top: 5px;
+	left: 15px;
+	width: 415px;
+	height: 75px;
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 16px;
+	color: #000000;
+	font-weight: bold;
+}
+
+#SpotForEquation{
+	position: absolute;
+	top: 100px;
+	left: 0px;
+	width: 445px;
+	height: 0px;
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 24px;
+	color: #990000;
+	font-weight: bold;
+}
+
+#GraphConstant1{
+	position: absolute;
+	top: 200px;
+	left: 75px;
+	width: 115px;
+	height: 25px;
+	text-align: center;
+	border: #990000;
+	border-style: solid;
+	border-width: 2px;
+}
+
+#GraphConstant2{
+	position: absolute;
+	top: 200px;
+	left: 225px;
+	width: 115px;
+	height: 25px;
+	text-align: center;
+	border: #990000;
+	border-style: solid;
+	border-width: 2px;
+}
