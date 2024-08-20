@@ -72,10 +72,6 @@ Online (Due 11PM, Monday 18 July):
 
 !>只有 **一次** 机会，每次check会扣33%，请谨慎check! 一次性一定要拿到70/100！(Grade to pass: 70.00 out of 100.00)
 
-  **Opens:** Friday, 8 July 2022, 9:00 AM
-  
-  **Closes:** Monday, 18 July 2022, 11:59 PM
-
   * [Ideal Gas Law Online Lab![logo](../../../../../logosvg01.svg)](https://moodle.telt.unsw.edu.au/mod/quiz/view.php?id=4558495)
 
   * 题目中某些内容无法显示？也许这里能帮到你：[Question](/homework/DPST1021/work/work10_Lab_Ideal_Gas_Law/question)

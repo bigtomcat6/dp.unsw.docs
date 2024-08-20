@@ -312,6 +312,5 @@ Once you have completed the experiment upload your report at the [Turnitin link 
 </div>
 
 
-?>_来自：https://moodle.telt.unsw.edu.au/mod/page/view.php?id=4558275<br>Last modified: Thursday, 26 May 2022, 10:01 AM_
-
+?>_来自：https://moodle.telt.unsw.edu.au/mod/page/view.php?id=4558275
 

@@ -9,7 +9,6 @@
 
 >课程官网：https://moodle.telt.unsw.edu.au/mod/lti/view.php?id=4559123
 
->下面信息更新于2022年05月18日20:00
 
 ## 一、题目在哪？
 

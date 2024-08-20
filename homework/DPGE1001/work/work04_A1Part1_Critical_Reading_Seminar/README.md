@@ -27,8 +27,6 @@
 
 ### 2. Evidence Portfolio （总结）
 
-!> Due: 4 Jul 2022
-
   * 模板Word文件：[Evidence Portfolio TEMPLATEFile.docx![logo](../../../../../logosvg01.svg)](https://moodle.telt.unsw.edu.au/mod/resource/view.php?id=4551465) _（[备用![logo](../../../../../logosvg01.svg)](https://unsw.cdn.t.bigtomcat.com/unsw_docs/2022/2022T2/2022T2_DPGE1001/docs/A1%20Part%201%20CRS%20Evidence%20Portfolio%20TEMPLATE.docx)）_
 
   * 交作业：[Evidence Portfolio SUBMIT HERE![logo](../../../../../logosvg01.svg)](https://moodle.telt.unsw.edu.au/mod/turnitintooltwo/view.php?id=4629989) _(温馨提示：这个提交作业的平台由Turnitin为UNSW提供支持，众所周知Turnitin是个查重平台，所以我建议这个作业自行完成！)_

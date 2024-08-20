@@ -17,7 +17,7 @@
   Assignment(10%)分为两个部分：mobius(2%)和Turnition(8%), 题目和答案可以在mobius找到 **`(mobius千万千万不要急着提交试卷！不然你的题目就没了)`** 。 并且你需要完整的提供你的解题思路，在Turnition将解题思路以.docx或.pdf的文件类型提交_(温馨提示：这个提交作业的平台由Turnitin为UNSW提供支持，众所周知Turnitin是个查重平台，所以我建议这个作业自行完成！)_
 
   * 第一部分 mobius：[MATH1131 Assignment Questions![logo](../../../../../logosvg01.svg)](https://unsw.mobius.cloud/1179/4495/assignments/23474)
-  * 第二部分 Turnitin: [1131 Assignment submission - Assignment![logo](../../../../../logosvg01.svg)](https://moodle.telt.unsw.edu.au/mod/turnitintooltwo/view.php?id=4822637) _(Due Date: 11 Jul 2022 - 17:00)_
+  * 第二部分 Turnitin: [1131 Assignment submission - Assignment![logo](../../../../../logosvg01.svg)](https://moodle.telt.unsw.edu.au/mod/turnitintooltwo/view.php?id=4822637) 
 
   !>Summary:<br>在提交作业之前，请仔细阅读作业说明。特别是，请注意评估标准，有关抄袭的信息和适合提交规则。您必须以单个 Word 或 PDF 文档的形式提交您的作品。<br><br> **通过提交您的作业，您声明：**
 <br>本评估项目完全是您自己的原创作品，除非您已承认使用了源材料，例如书籍，期刊文章，其他出版材料，互联网以及其他学生或任何其他人的作品。
@@ -193,4 +193,4 @@ If you are sick for a significant period close to the deadline or cannot complet
 </div>
 
 
-?>_来自：https://moodle.telt.unsw.edu.au/mod/page/view.php?id=4559159<br>Last modified: Wednesday, 15 June 2022, 1:58 PM_
+?>_来自：https://moodle.telt.unsw.edu.au/mod/page/view.php?id=4559159<br>

@@ -52,8 +52,6 @@ Online (Due 11PM, Monday 1 August): Speed of Sound
 
 #####  完成 Speed of Sound
 
-!> _Due date: Monday 1 Aug 2022 - 21:59._
-
   * 模板:  [The speed of sound.PDF![logo](../../../../../logosvg01.svg)](https://moodle.telt.unsw.edu.au/pluginfile.php/7922686/mod_page/content/7/4%20-%20Speed%20of%20Sound%20-%20Term%203_Form_.pdf) *（[备用![logo](../../../../../logosvg01.svg)](https://unsw.cdn.t.bigtomcat.com/unsw_docs/2022/2022T2/2022T2_DPST1021/docs/4%20-%20Speed%20of%20Sound%20-%20Term%203_Form_.pdf)）*
     
   * 可能需要用到的EXCEL文档： [Linear plot with uncertainties![logo](../../../../../logosvg01.svg)](https://moodle.telt.unsw.edu.au/pluginfile.php/7922686/mod_page/content/7/Linear%20Plot%20With%20Uncertainties.xls) *（[备用![logo](../../../../../logosvg01.svg)](https://unsw.cdn.t.bigtomcat.com/unsw_docs/2022/2022T2/2022T2_DPST1021/docs/Linear%20Plot%20With%20Uncertainties.xls)）*

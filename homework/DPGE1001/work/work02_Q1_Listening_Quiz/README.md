@@ -8,8 +8,6 @@
 
 >课程：[英语手册](/DPGE1001/)
 
-!>**Closes:** Monday, 30 May 2022, 9:00 AM _(悉尼时间)_
-
 ## 一、题目在哪？
 
  * 在这： [Q1: Listening Quiz - COMPLETE HERE![logo](../../../logosvg01.svg)](https://moodle.telt.unsw.edu.au/mod/quiz/view.php?id=4551457)

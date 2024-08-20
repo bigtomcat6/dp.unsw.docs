@@ -46,9 +46,6 @@
 
 _**原话：**This online lab is set up as a Moodle quiz. You only get one attempt at the quiz. Automatically marked sections will allow you to check your answers and receive feedback. However, there is a 33% penalty for each incorrect answer. If you leave Moodle you will be able to return to your attempt but you must submit your attempt before the deadline._
 
-  **Opens:** Friday, 24 June 2022, 9:00 AM
-  
-  **Closes:** Monday, 4 July 2022, 11:59 PM
 
   * [Rotational Inertia Online Lab![logo](../../../../../logosvg01.svg)](https://moodle.telt.unsw.edu.au/mod/quiz/view.php?id=4558494)
 

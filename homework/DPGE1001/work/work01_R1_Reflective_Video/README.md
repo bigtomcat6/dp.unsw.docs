@@ -9,8 +9,6 @@
 
 >课程：[英语手册](/DPGE1001/)
 
-!>**Due:** Monday, 30 May 2022, 9:00 AM _(悉尼时间)_
-
 ### 一、要求：
 
 ```moodle.telt.unsw.edu.au

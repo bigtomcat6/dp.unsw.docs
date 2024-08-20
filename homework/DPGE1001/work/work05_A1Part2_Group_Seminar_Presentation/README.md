@@ -20,9 +20,6 @@
   </details>
 
 ### 2. Annotated Bibliography
-
-!> Due: 29 Jul 2022 - 07:00
-
   * 模板Word文档：[A1 Part 2: Annotated Bibliography TEMPLATE![logo](../../../../../logosvg01.svg)](https://moodle.telt.unsw.edu.au/mod/resource/view.php?id=4551472) _（[备用![logo](../../../../../logosvg01.svg)](https://unsw.cdn.t.bigtomcat.com/unsw_docs/2022/2022T2/2022T2_DPGE1001/docs/A1%20Part%202%20Group%20Seminar%20Presentation%20Annotated%20Bibliography%20TEMPLATE.docx)）_
 
   * 交作业：[A1 Part 2: Annotated Bibliography - SUBMIT HERE![logo](../../../../../logosvg01.svg)](https://moodle.telt.unsw.edu.au/mod/turnitintooltwo/view.php?id=4630025) _(温馨提示：这个提交作业的平台由Turnitin为UNSW提供支持，众所周知Turnitin是个查重平台，所以我建议这个作业自行完成！)_

@@ -49,8 +49,6 @@ Online (Due 11PM, Monday 25 July):
 
 #####  完成 Linear Oscillatory Motion
 
-!> _Due date: Monday 25 Jul 2022 - 21:59._
-
   * 模板:  [Linear Oscillatory Motion.PDF![logo](../../../../../logosvg01.svg)](https://moodle.telt.unsw.edu.au/pluginfile.php/7922684/mod_book/chapter/355638/Linear%20Oscillatory%20Motion%20with%20Data.pdf) *（[备用![logo](../../../../../logosvg01.svg)](https://unsw.cdn.t.bigtomcat.com/unsw_docs/2022/2022T2/2022T2_DPST1021/docs/Linear%20Oscillatory%20Motion%20with%20Data.pdf)）*
     
   * 可能需要用到的EXCEL文档： [Linear Plot with uncertainties![logo](../../../../../logosvg01.svg)](https://moodle.telt.unsw.edu.au/mod/resource/view.php?id=4558542) *（[备用![logo](../../../../../logosvg01.svg)](https://unsw.cdn.t.bigtomcat.com/unsw_docs/2022/2022T2/2022T2_DPST1021/docs/Linear%20Plot%20With%20Uncertainties.xls)）*

@@ -6,8 +6,6 @@
 
 >课程：[英语手册](/DPGE1001/)
 
-!>**Closes:** Monday, 20 June 2022, 9:00 AM _(悉尼时间)_
-
 ## 题目在哪？
 
  * 在这：[Q3: Academic Language Quiz Part 1![logo](../../../../../logosvg01.svg)](https://moodle.telt.unsw.edu.au/mod/quiz/view.php?id=4551461)

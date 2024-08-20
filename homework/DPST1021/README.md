@@ -21,7 +21,7 @@
 | [Online Assessed Quiz 1 - PH1121](/homework/DPST1021/work/work05_Online_Assessed_Quiz_1/) |需 (Week3周末前) 完成|
 | [Laboratory skills(已更新)](/homework/DPST1021/work/work02_Laboratory_skills/) |需要在Week3实验室课前完成|
 | [Safety Induction and Laboratory Procedures Quiz(已更新)](/homework/DPST1021/work/work03_Lab_Safety_Induction_and_Laboratory_Procedures_Quiz/) |需要在Week3线下课前完成|
-| [Complete the STACK Orientation Exercise](/homework/DPST1021/work/work01_STACK_Orientation_Exercise/)|需2022年5月9日完成|
+| [Complete the STACK Orientation Exercise](/homework/DPST1021/work/work01_STACK_Orientation_Exercise/)||
 | Check that you can do HomeWork Set 0|[这份PDF![logo](../../../../../logosvg01.svg)](https://moodle.telt.unsw.edu.au/pluginfile.php/7922957/mod_folder/content/0/DPST1021-PH1121%20Homework%20Book.pdf) 的2-7页|
 | HomeWork Set 1|[这份PDF![logo](../../../../../logosvg01.svg)](https://moodle.telt.unsw.edu.au/pluginfile.php/7922957/mod_folder/content/0/DPST1021-PH1121%20Homework%20Book.pdf) 第8页起|
 |![logo](../../../homework/logo/PHYlogo1.png ':size=500')||
