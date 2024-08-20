@@ -88,7 +88,7 @@ window.$docsify = {
       },
     },
     timeUpdater: {
-      text: "_{docsify-updated}_",
+      text: "",
       formatUpdated: "{YYYY}年{MM}月{DD}日{HH}:{mm}",
       whereToPlace: "top",  // "top" or "bottom", default to "bottom"
     },
