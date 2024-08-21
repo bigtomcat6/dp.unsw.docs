@@ -140,11 +140,15 @@ _$ \sin3t=c \sin t+d\sin^{3}t $_
 <table>
 <tr>
 <td> 
-<input type="checkbox" checked disabled> $1.5 \lt \mathrm{Re}(z) \leq 2$ 
+<input type="checkbox" checked disabled> 
+
+$1.5 \lt \mathrm{Re}(z) \leq 2$
 </td>
 <td><select disabled><option><option selected>and</option></select></td>
 <td>
-<input type="checkbox" checked disabled> $|\mathrm{Im}(z)| \leq 1$
+<input type="checkbox" checked disabled> 
+
+$|\mathrm{Im}(z)| \leq 1$
 </td>
 </tr>
 </table>
@@ -152,10 +156,14 @@ _$ \sin3t=c \sin t+d\sin^{3}t $_
 <table>
 <tr>
 <td> 
-<input type="checkbox" checked disabled> $|z+1|=|z-2i|$
+<input type="checkbox" checked disabled> 
+
+$|z+1|=|z-2i|$
 </td>
 <td><select disabled><option><option selected>and</option></select></td>
-<td><input type="checkbox" checked disabled> $0 \leq \mathrm{arg}(z) \leq \frac{3\pi}{4}$
+<td><input type="checkbox" checked disabled> 
+
+$0 \leq \mathrm{arg}(z) \leq \frac{3\pi}{4}$
 </td>
 </tr>
 </table>

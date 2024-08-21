@@ -241,7 +241,7 @@ $5x+y+8z=b_3$
 
 ?> _随机题！需要补全题目才可出答案！_ **题目：** Let $ \mathbf a = \ \begin{pmatrix} a_1 \\ a_2 \\ a_3  \end{pmatrix}$ and $ \mathbf v = \ \begin{pmatrix} v_1 \\ v_2 \\ v_3  \end{pmatrix}$ <br> 【补齐：$a_1=$ <input style="width: 30px" v-model="i4" v-on:input="calsq1()"> , $a_2=$ <input style="width: 30px" v-model="i5" v-on:input="calsq1()"> , $a_3=$ <input style="width: 30px" v-model="i6" v-on:input="calsq1()"> , $v_1=$ <input style="width: 30px" v-model="i1" v-on:input="calsq1()"> , $v_2=$ <input style="width: 30px" v-model="i2" v-on:input="calsq1()"> , $v_3=$ <input style="width: 30px" v-model="i3" v-on:input="calsq1()">  】
 
- - $\text{proj}_{\mathbf v} \mathbf a = \ $ <code>{{a1}}</code>
+ - $\text{proj}_{\mathbf v} \mathbf a =$ <code>{{a1}}</code>
 
  - <code>{{a2}}</code>
 

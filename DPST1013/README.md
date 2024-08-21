@@ -63,21 +63,7 @@ _如果你不知道怎么进教室，我希望我可以帮到你_
 
 ## 作业是什么？
 
->我已经将我知道的作业放在[作业专区](/homework/?id=数学-dpst1013-mathematics-1a-2022-t2)了
-
-
-下面这些是数学teams的原话：
-
->Online (Computing) Tutorials - There is a considerable amount of work related to Maple/Mobius that will need to be done on a weekly basis. This work is designed to reinforce the concepts learned in lectures and tutorials and will contribute towards your final grade (12 %). It starts in Week 1 when you will need to register for MA1131 Diploma 2022B through the link https://unsw.mobius.cloud/class/DANUV. Make sure you complete the top section "Getting started" completely before attempting any of the weekly Online Tutorials. Details can be found under Week 1 Mobius instructions on the Moodle page. In Week 2, during the class test time, you will have your Maple/Mobius session (explaining how to access Maple) and attendance is compulsory for all new students. It is very important that you get engaged with Mobius as early as possible because most of the assessments (Class tests, Maple Lab test, Mobius online tutorials, Final exam) will be conducted through Mobius platform.
-
-
->Google翻译:  
-在线（计算）教程 - 有大量与 Maple/Mobius 相关的工作需要每周完成。 这项工作旨在加强在讲座和教程中学到的概念，并将有助于您的最终成绩 (12 %)。 它从第 1 周开始，您需要通过链接 https://unsw.mobius.cloud/class/DANUV 注册 MA1131 文凭 2022B。 在尝试任何每周在线教程之前，请确保您完全完成了顶部的“入门”部分。 详细信息可以在 Moodle 页面上的第 1 周 Mobius 说明下找到。 在第 2 周，在课堂测试期间，您将参加 Maple/Mobius 课程（解释如何访问 Maple），所有新生都必须参加。 尽早参与 Mobius 非常重要，因为大多数评估（课堂测试、Maple Lab 测试、Mobius 在线教程、期末考试）都将通过 Mobius 平台进行。
-
-## 我没找到数学作业  :id=cannotfindmathHomwork
-
- ![logo](./dpst1013png09.png ':size=800')
-
+>我已经将我知道的作业放在[作业专区](/homework/?id=数学-dpst1013-mathematics-1a)了
 
 
 
