@@ -1,0 +1,124 @@
+/* Formating of the Data Section of the Program */
+	
+#DataSection{
+	position: absolute;
+	top: 35px;
+	left: 0px;
+	width: 450px;
+	height: 465px;
+	border: black;
+	border-style: solid;
+	border-width: 5px;
+	background-color: black;
+	overflow: auto;
+}
+
+/* This sets the properties data table */
+.tablestuff{
+	width: 434px;
+	border: #000000;
+	border-style: solid;
+	border-width: 6px;
+	border-collapse: collapse;
+	border-spacing: 0;	
+}
+
+.datatableheading{
+	background-color: #990000;
+}
+
+tr{
+	height: 30px;
+}
+
+tr:nth-child(even) {background-color: #CCC}
+tr:nth-child(odd) {background-color:  #FFF}
+
+td{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:14px;
+	color:#000000;
+	text-align: center;
+	border: #000000;
+	border-style: solid;
+}
+
+.DataInputs{
+	width: 100px;
+    height: 20px;
+    text-align: center;
+    border: 1px solid Black;
+	padding: 2px 2px;
+}
+
+.TitleInputs{
+	width: 150px;
+    height: 20px;
+    text-align: center;
+    border: 1px solid Black;
+	padding: 2px 2px;
+}
+
+#TableHeading{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 450px;
+	height: 40px;
+	border: black;
+	border-style: solid;
+	border-collapse: collapse;
+	border-left: 15px;
+	border-right: 15px;
+	background-color: black;
+}
+
+
+/* These tags set starting properties of table */
+#MainDataTableHeadings{
+	position: absolute;
+	left: 5px;
+	top: 0px;
+	width: 455px;
+	height: 40px;
+}
+
+/* This sets the properties data table */
+.headingtablestuff{
+	width: 450px;
+	border: #000000;
+	border-style: solid;
+	border-width: 6px;
+	border-collapse: collapse;
+	border-spacing: 0;	
+}
+
+.MainDataTable{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 434px;
+}
+
+.activepoint{
+	color: #990000;
+}
+
+.inactivepoint{
+	color: #000000;
+}
+
+#Tips{
+	position: absolute;
+	padding: 10px;
+	top: 355px;
+	left: 75px;
+	width: 354px;
+	height: 100px;
+	border: black;
+	border-style: solid;
+	border-width: 1px;
+	background-color: #fbfcbb;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:14pt;
+}

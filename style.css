@@ -1,0 +1,209 @@
+video::-internal-media-controls-download-button {
+    display: none
+  }
+
+  video::-webkit-media-controls-enclosure {
+    overflow: hidden
+  }
+
+  video::-webkit-media-controls-panel {
+    width: calc(100% + 30px)
+  }
+
+  video {
+    object-fit: contain
+  }
+
+  video:focus {
+    outline: none
+  }
+
+  video::cue {
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+
+  body .sidebar-toggle {
+    background: none;
+    bottom: 0;
+    left: 0;
+    cursor: pointer;
+    padding: 1rem
+  }
+
+  body .sidebar-toggle-button {
+    position: relative;
+    width: 1.5rem;
+    height: 1.5rem
+  }
+
+  body .sidebar-toggle span {
+    transition: all 0.3s linear;
+    height: 0.25rem;
+    width: 1.5rem;
+    position: absolute;
+    left: 0;
+    margin: 0;
+    transform-origin: 0
+  }
+
+  body.close .sidebar-toggle span {
+    transform-origin: center
+  }
+
+  body .sidebar-toggle span:nth-child(1) {
+    top: 0
+  }
+
+  body .sidebar-toggle span:nth-child(2) {
+    top: 0.65rem
+  }
+
+  body .sidebar-toggle span:nth-child(3) {
+    top: 1.25rem
+  }
+
+  .sidebar-toggle .sidebar-toggle-button:hover {
+    opacity: 1
+  }
+
+  .sidebar-toggle:hover span:nth-child(1) {
+    transform: rotate(45deg);
+    width: 1.75rem
+  }
+
+  .sidebar-toggle:hover span:nth-child(2) {
+    opacity: 0
+  }
+
+  .sidebar-toggle:hover span:nth-child(3) {
+    transform: rotate(-45deg);
+    width: 1.75rem
+  }
+
+  .close .sidebar-toggle:hover span:nth-child(1) {
+    transform: rotate(0);
+    width: 1.5rem;
+    top: 0.65rem
+  }
+
+  .close .sidebar-toggle:hover span:nth-child(2) {
+    opacity: 1;
+    transform: rotate(90deg)
+  }
+
+  .close .sidebar-toggle:hover span:nth-child(3) {
+    transform: rotate(0);
+    width: 1.5rem;
+    top: 0.65rem
+  }
+
+  .sidebar input {
+    margin: 10px 10px 10px 10px;
+    border-radius: 15px;
+    text-indent: 15px
+  }
+
+  .sidebar {
+    font-family: Comic-Sans-MS, HannotateSC-W5;
+    background-color: #fbfbfd
+  }
+
+  .sidebar a {
+    font-weight: 500
+  }
+
+  .sidebar strong {
+    font-weight: 500
+  }
+
+    @font-face {
+    font-family: Comic-Sans-MS;
+    src: url(https://unsw.cdn.t.bigtomcat.com/web/Comic-Sans-MS.ttf);
+    unicode-range: U+30-39, U+41-5A, U+61-7A, U+C0-FF
+  }
+
+  @font-face {
+    font-family: HappyZcool-2016;
+    src: url(https://unsw.cdn.t.bigtomcat.com/web/HappyZcool-2016.ttf);
+  }
+
+  @font-face {
+    font-family: HannotateSC-W5;
+    src: url(/file/HannotateSC-W5.woff);
+    font-weight: bold;
+  }
+
+
+
+
+  h1 {
+    font-family: Comic-Sans-MS, HannotateSC-W5
+  }
+
+  h2 {
+    font-family: Comic-Sans-MS, HannotateSC-W5
+  }
+
+  h3 {
+    font-family: Comic-Sans-MS, HannotateSC-W5
+  }
+
+  h4 {
+    font-family: Comic-Sans-MS, HannotateSC-W5
+  }
+
+  h5 {
+    font-family: Comic-Sans-MS, HannotateSC-W5
+  }
+
+  .markdown-section span {
+    font-weight: 500
+  }
+
+  /**by How @bigtomcat**/
+
+  .how_qb {
+    background-color: #f3f7f9;
+    border: #f3f7f9 solid 15px;
+    border-radius: 10px;
+  }
+
+  .how_ib {
+    border: solid #f9b138 3px;
+    border-radius: 35px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #f9b1381a;
+  }
+
+  /**by How @bigtomcat**/
+
+
+  body {
+    background-color: var(--backg-color)
+  }
+
+  #back-to-top {
+    background-color: var(--theme-color);
+  }
+
+  :root {
+    --theme-color: #42b983;
+    --backg-color: /*#fbfbfd;*/
+    --docsifytabs-border-color: #ededed;
+    --docsifytabs-tab-highlight-color: var(--theme-color);
+    
+  }
+
+  /*
+  html {    
+    -webkit-filter: grayscale(100%);   
+     -moz-filter: grayscale(100%);   
+     -ms-filter: grayscale(100%);    
+     -o-filter: grayscale(100%);    
+     filter: grayscale(100%);    
+     filter: progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);
+  }
+  */

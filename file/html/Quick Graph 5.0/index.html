@@ -1,0 +1,321 @@
+
+<!--https://www.thephysicsaviary.com/Physics/Programs/Tools/Graphing/index.html-->
+<!doctype>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<! style sheet that has stuff that is unique to this program only>
+	<link rel="stylesheet" type="text/css" href="stylings.css">
+	<link rel="stylesheet" type="text/css" href="datasection.css">
+	<link rel="stylesheet" type="text/css" href="keysection.css">
+	<link rel="stylesheet" type="text/css" href="curvefit.css">
+	<link rel="stylesheet" type="text/css" href="largegraphkey.css">
+	
+	
+	<script src="../../jquery.min.js"></script>
+	
+	<script src="polyfill.min.js?features=es6"></script>
+	
+<script id="MathJax-script" async src="tex-mml-chtml.js"></script>
+	
+	<script type="text/javascript" src="javascript.js"></script>
+	<script type="text/javascript" src="axes.js"></script>
+	<script type="text/javascript" src="datasection.js?v=1"></script>
+	<script type="text/javascript" src="curvefit.js"></script>
+	<script type="text/javascript" src="opensavedfile.js"></script>
+	
+	<title>Quick Graphing Program 5.0</title>
+</head>
+
+<body onload="initialize();">
+
+<div id="FullPage2">
+
+	<div id = 'MainBody'>
+	
+		<div id = "ProgramTitle900" Class = "Titles">Quick Graph 5.0 </div>
+		
+		<! Section with Graph and Canvas !>	
+		<div id = "GraphSection">
+			<div id = "DrawingSection">
+				<canvas id = "CanvasOne" width="900" height="640">
+					Your browser does not support HTML 5.0 Canvas...get a better browser!!!
+				</canvas>
+			</div>
+			<div id = "AdjustGraphSizeButton" onClick = "ChangeGraphSize()"></div>
+		</div>
+		
+		<!  All the stuff that should be hidden when graph is full screen !>
+		<div id = "DataEntrySide">
+			<div id = "TableHeading">
+				<table id = "MainDataTableHeadings" class = "tablestuff">
+					<tbody>
+						<tr>
+							<td class = "datatableheading" width = "60px" onclick = "SwitchData()"><div class = "headings">Switch</div></td>
+							<td class = "datatableheading" width = "170px"><input type='text' id = 'xaxistitle' value = "x (thing you changed)" class = "TitleInputs" onkeyup = "ChangeAxesTitles()"/></td>
+							<td class = "datatableheading"><input type='text' id = 'yaxistitle' value = "y (dependent variable)" class = "TitleInputs"  onkeyup  = "ChangeAxesTitles()"/></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<! Display of the Data Section !>
+			<div id = "DataSection">
+				
+				<table id = "MainDataTable0" class = "tablestuff MainDataTable">			
+					<tbody>
+						<tr>
+							<td width = "60px" id = "point1table0" class = "activepoint" onclick = "SwitchActivity(0)">1</td>
+							<td width = "170px"><input type='text' id = 'x1table0' class = "DataInputs" onkeyup = "LoadDataIntoArrays(0,1,1)" /></td>
+							<td><input type='text' id = 'y1table0' class = "DataInputs" onkeyup = "LoadDataIntoArrays(0,1,2)" /></td>
+						</tr>
+					</tbody>
+				</table>
+				<table id = "MainDataTable1" class = "tablestuff MainDataTable">			
+					<tbody>
+						<tr>
+							<td width = "60px" id = "point1table1" class = "activepoint" onclick = "SwitchActivity(0)">1</td>
+							<td width = "170px"><input type='text' id = 'x1table1' class = "DataInputs" onkeyup = "LoadDataIntoArrays(1,1,1)" /></td>
+							<td><input type='text' id = 'y1table1' class = "DataInputs" onkeyup = "LoadDataIntoArrays(1,1,2)" /></td>
+						</tr>
+					</tbody>
+				</table>
+				<table id = "MainDataTable2" class = "tablestuff MainDataTable">			
+					<tbody>
+						<tr>
+							<td width = "60px" id = "point1table2" class = "activepoint" onclick = "SwitchActivity(0)">1</td>
+							<td width = "170px"><input type='text' id = 'x1table2' class = "DataInputs" onkeyup = "LoadDataIntoArrays(2,1,1)" /></td>
+							<td><input type='text' id = 'y1table2' class = "DataInputs" onkeyup = "LoadDataIntoArrays(2,1,2)" /></td>
+						</tr>
+					</tbody>
+				</table>
+				<table id = "MainDataTable3" class = "tablestuff MainDataTable">			
+					<tbody>
+						<tr>
+							<td width = "60px" id = "point1table3" class = "activepoint" onclick = "SwitchActivity(0)">1</td>
+							<td width = "170px"><input type='text' id = 'x1table3' class = "DataInputs" onkeyup = "LoadDataIntoArrays(3,1,1)" /></td>
+							<td><input type='text' id = 'y1table3' class = "DataInputs" onkeyup = "LoadDataIntoArrays(3,1,2)" /></td>
+						</tr>
+					</tbody>
+				</table>
+				<table id = "MainDataTable4" class = "tablestuff MainDataTable">			
+					<tbody>
+						<tr>
+							<td width = "60px" id = "point1table4" class = "activepoint" onclick = "SwitchActivity(0)">1</td>
+							<td width = "170px"><input type='text' id = 'x1table4' class = "DataInputs" onkeyup = "LoadDataIntoArrays(4,1,1)" /></td>
+							<td><input type='text' id = 'y1table4' class = "DataInputs" onkeyup = "LoadDataIntoArrays(4,1,2)" /></td>
+						</tr>
+					</tbody>
+				</table>	
+			</div>
+			
+			<!  Key section below data table !>
+			<div id = "KeySection">
+				<div id = "KeySectionTitle" class = "KeyTextBig" onClick = "RenameDataSet()">Data Set 1</div>
+				<div id = "KeySectionEquation" class = "KeyTextBig"><span id = "EquationOnly"></span><span id = "Correlation"></span></div>
+			</div>
+			
+			<!  Tips that show up for a bit on hiding points !>
+			<div id = "Tips" onclick = "RemoveTips()">&larr;  Click on the number of any data point that you don't want included in your curve fit.  Only the points and point numbers in red will be included in your curve fit.</div>
+				
+		</div>
+		<!  This ends the data entry side section !>
+			
+		<! Display of the Bottom Buttons !>		
+		<div id = "BottomDisplayArea">
+			
+			<! The buttons below the graph that can change stuff !>
+			<div id = "SpecialFunctionArea">
+				<div id = "CurveFitButton" onclick="ToggleWindow('CurveFitSection')" class = "SectionButton">Curve Fit</div>
+				<div id = "AdjustXButton" onclick = "ToggleWindow('AdjustXDataArea')" class = "SectionButton">Modify X Data</div>
+				<div id = "AdjustYButton" onclick = "ToggleWindow('AdjustYDataArea')" class = "SectionButton">Modify Y Data</div>
+				<div id = "AdjustScaleButton" onclick = "ToggleWindow('AdjustScaleSection')" class = "SectionButton">Set Axes</div>
+				<div id = "AdjustEquationButton" onclick="ToggleWindow('ManualEquationOverride')" class = "SectionButton">Override Equation</div>
+				<div id = "SaveGraphButton"  onclick="ToggleWindow('SaveGraphSection')" class = "SectionButton">Save Graph</div>
+				<div id = "ImportDataButton"  onclick="ToggleWindow('ImportDataArea')" class = "SectionButton">Import Data</div>
+				<div id = "ChangeDataSetButton"  onClick = "ChangeDataSet()" class = "TwoLayerSectionButton"><span id = "MainButtonText">Change Data Set</span><span id = "HelperButtonText">Cycles 5 Data Sets</span></div>
+			</div>
+			
+			
+			<! Display of the Manual Override !>		
+			<div id = "ManualEquationOverride">
+				<div id = "CloseEquationOverrideSection" onclick="ToggleWindow('ManualEquationOverride')">x</div>
+				<span class = "AdjustEquationTitle"></span>
+				<div id = "SpotForEquation">y = </div>
+				<input onkeyup="UpdateEquation(1)" type='text' ID = 'GraphConstant1' />
+				<input onkeyup="UpdateEquation(2)" type='text' ID = 'GraphConstant2' />
+			</div>
+				
+				
+			<! Display of the Import Data Area !>
+			<div id = "ImportDataArea">
+				<div id = "CloseImportDataSection" onclick="ToggleWindow('ImportDataArea')">x</div>
+				<span id = "ImportDataTitle1" class = "ImportAreaText">Step 1:  Paste Your Data (TSV or CSV) in the box below. <br />Don't reformat your data.</span>
+				
+				<span id = "ImportDataTitle2" class = "ImportAreaText">Step 2:  Choose which column you want to put on your x and y axes.
+					<div id = "XPopDown">x-Axis:  <select id="xaxisselection" onchange="ImportX()"><option>empty</option></select></div>
+					<div id = "YPopDown">y-Axis:  <select id="yaxisselection" onchange="ImportY()"><option>empty</option></select></div>
+				</span>
+				<textarea id = "PastedTextArea" onchange="GetColumnNames()"></textarea>
+			</div>
+	
+	
+			<! Display of the Adjust Scale Section !>			
+			<div id = "AdjustScaleSection">
+				<div id = "CloseScaleSection" onclick="ToggleWindow('AdjustScaleSection')">x</div>
+				<span id = "AdjustScaleSelectionTitle">To override the computer's automatic scales, type in the ranges for your axes and switch to manual scale.</span>
+				<div id = "MaxYHolder" class = "ScaleHeadings">Max Y:  <input type="text" id = "MaxY" class = "FormInputs" onchange="ManuallyScaleAxes()"/></div>
+				<div id = "MinYHolder" class = "ScaleHeadings">Min Y:  <input type="text" id = "MinY" class = "FormInputs" onchange="ManuallyScaleAxes()" /></div>
+				<div id = "MinXHolder" class = "ScaleHeadings">Min X:  <input type="text" id = "MinX" class = "FormInputs" onchange="ManuallyScaleAxes()" /></div>
+				<div id = "MaxXHolder" class = "ScaleHeadings">Max X:  <input type="text" id = "MaxX" class = "FormInputs" onchange="ManuallyScaleAxes()" /></div>
+				<div id = "AxesRestore">
+					<span id = "AutomaticCheckboxHolder">
+						<label for = "AutomaticCheckBox">
+							<input id = "AutomaticCheckBox" type="radio" name = "scale" value="auto" onclick = "SetScaleType(0)" checked>
+								Automatically Scale Axes
+						</label>
+					</span>
+				
+					<span id = "ManualCheckboxHolder">
+						<label for = "ManualCheckBox">
+							<input id = "ManualCheckBox" type="radio" name = "scale" value="manual"  onclick = "SetScaleType(1)">
+								Manually Scale Axes
+						</label>
+					</span>
+				</div>
+			</div>
+	
+	
+			<! Display of the Save Graph Area !>
+			<div id = "SaveGraphSection">
+				<div id = "CloseGraphSection" onclick="ToggleWindow('SaveGraphSection')">x</div>
+				<span id = "SaveGraphTitle">Below is a URL that you can save or share with others.<p>Right click on the text below and pick "Copy Link"</span>
+				<div id = "SpotForURL" class = "urlsmall"><a id = "SaveLink" href = "">Copy this link</a></div>
+			</div>
+	
+	
+			<! Display of the Adjust X Data Area !>			
+			<div id = "AdjustXDataArea">
+				<div id = "CloseXDataSection" onclick = "ToggleWindow('AdjustXDataArea')">x</div>
+				<span id = "AdjustXDataTitle">Click on any of the options below to modify all the x-values in your active data table.  Don't do this until you have entered all your numbers.</span>
+				<div id = "XTranHolder">
+					<div id = "XInv" class = "ModifyButton" onclick="xchange('inverse')">1/x</div>
+					<div id = "XSQR" class = "ModifyButton" onclick="xchange('square')">x<sup>2</sup></div>
+					<div id = "XCube" class = "ModifyButton" onclick="xchange('cube')">x<sup>3</sup></div>
+					<div id = "XSQRT" class = "ModifyButton" onclick="xchange('squareroot')">x<sup>1/2</sup></div>
+					<div id = "XRad" class = "ModifyButton" onclick="xchange('degtorad')">°-> r</div>
+					<div id = "Xsin" class = "ModifyButton" onclick="xchange('sine')">sin x</div>
+					<div id = "Xplus" class = "ModifyButton" onclick="xchange('plus')">x + C</div>
+					<div id = "Xminus" class = "ModifyButton" onclick="xchange('minus')">x - C</div>
+					<div id = "Xmultiply" class = "ModifyButton" onclick="xchange('multiply')">x * C</sup></div>
+					<div id = "Xdivide" class = "ModifyButton" onclick="xchange('divide')">x/C</div>
+					<div id = "XCSpot">C = <input type='Number' ID = 'XC' value = "1" size="5"/></div>
+				</div>
+			</div>
+	
+			<! Display of the Adjust Y Data Area !>			
+			<div id = "AdjustYDataArea">
+				<div id = "CloseYDataSection" onclick = "ToggleWindow('AdjustYDataArea')">x</div>
+				<span id = "AdjustYDataTitle">Click on any of the options below to modify all the y-values in your active data table.  Don't do this until you have entered all your numbers.</span>
+				<div id = "YTranHolder">
+					<div id = "YInv" class = "ModifyButton" onclick="ychange('inverse')">1/y</div>
+					<div id = "YSQR" class = "ModifyButton" onclick="ychange('square')">y<sup>2</sup></div>
+					<div id = "YCube" class = "ModifyButton" onclick="ychange('cube')">y<sup>3</sup></div>
+					<div id = "YSQRT" class = "ModifyButton" onclick="ychange('squareroot')">y<sup>1/2</sup></div>
+					<div id = "YRad" class = "ModifyButton" onclick="ychange('degtorad')">°-> r</div>
+					<div id = "Ysin" class = "ModifyButton" onclick="ychange('sine')">sin y</div>
+					<div id = "Yplus" class = "ModifyButton" onclick="ychange('plus')">y + C</div>
+					<div id = "Yminus" class = "ModifyButton" onclick="ychange('minus')">y - C</div>
+					<div id = "Ymultiply" class = "ModifyButton" onclick="ychange('multiply')">y * C</sup></div>
+					<div id = "Ydivide" class = "ModifyButton" onclick="ychange('divide')">y/C</div>
+					<div id = "YCSpot">C = <input type='Number' ID = 'YC' value = "1" size="5"/></div>
+				</div>
+			</div>
+	
+	
+			<! Display of the Curve Fit Area !>	
+			<div id = "CurveFitSection">
+				<div id = "CloseCurveFitSection" onclick="ToggleWindow('CurveFitSection')">x</div>
+				<div id = "CurveFitSectionTitle">Choose From Graph Types Below (Click Twice to Remove Fit)</div>
+				
+				<div class = "SetGraphType" id = "ProportionalGraph" onclick="SetFit('proportional')">
+					<figure>
+						<figcaption>Proportional</figcaption>
+						<img src="images/proportional.png" alt="Proportional Fit Picture" class = "graphtype">	
+					</figure>
+				</div>
+				<div class = "SetGraphType" id = "LinearGraph" onclick="SetFit('linear')">
+					<figure>
+						<figcaption>Linear</figcaption>
+						<img src="images/linear.png" alt="Linear Fit Picture" class = "graphtype">	
+					</figure>
+				</div>
+				<div class = "SetGraphType" id = "SquaredGraph" onclick="SetFit('square')">
+					<figure>
+						<figcaption>Squared</figcaption>
+						<img src="images/squared.png" alt="Squared Fit Picture" class = "graphtype">	
+					</figure>
+				</div>
+				<div class = "SetGraphType" id = "SquareRootGraph" onclick="SetFit('squareroot')">
+					<figure>
+						<figcaption>Sq Root</figcaption>
+						<img src="images/squareroot.png" alt="Square Root Fit Picture" class = "graphtype">
+					</figure>
+				</div>
+				<div class = "SetGraphType" id = "CubedGraph" onclick="SetFit('cube')">
+					<figure>
+						<figcaption>Cubed</figcaption>
+						<img src="images/cubed.png" alt="Cubed Fit Picture" class = "graphtype">
+					</figure>
+				</div>
+				<div class = "SetGraphType" id = "NoRelationshipGraph" onclick="SetFit('norelationship')">
+					<figure>
+						<figcaption>No Relation</figcaption>
+						<img src="images/norelationship.png" alt="No Relationship Fit Picture" class = "graphtype">	
+					</figure>
+				</div>
+				<div class = "SetGraphType" id = "InverseGraph" onclick="SetFit('inverse')">
+					<figure>
+						<figcaption>Inverse</figcaption>
+						<img src="images/inverse.png" alt="Inverse Fit Picture" class = "graphtype">	
+					</figure>
+				</div>
+				<div class = "SetGraphType" id = "InverseSquaredGraph" onclick="SetFit('inversesquare')">
+					<figure>
+						<figcaption>Inv Squared</figcaption>
+						<img src="images/inversesquared.png" alt="Inverse Squared Fit Picture" class = "graphtype">	
+					</figure>
+				</div>
+				<div class = "SetGraphType" id = "InverseSquareRootGraph" onclick="SetFit('inversesquareroot')">
+					<figure>
+						<figcaption>Inv Sq Root</figcaption>
+						<img src="images/inversesquareroot.png" alt="Inverse Square Root Fit Picture" class = "graphtype">	
+					</figure>
+				</div>
+				<div class = "SetGraphType" id = "ExponentialDecayGraph" onclick="SetFit('exponential')">
+					<figure>
+						<figcaption>Exponential</figcaption>
+						<img src="images/exponentialdecay.png" alt="Exponential Decay Fit Picture" class = "graphtype">	
+					</figure>
+				</div>
+			</div>
+		</div>
+		<!  End of bottom display area !>
+		
+		<!  This section holds the key for a large graph !>
+		<div id = "LargeGraphKey">
+			<div id = "LargeGraphKeyEquation0" class = "largekeytext"><span id = "LET0"></span><span id = "LE0"></span><span id = "LEC0"></span></div>
+			<div id = "LargeGraphKeyEquation1" class = "largekeytext"><span id = "LET1"></span><span id = "LE1"></span><span id = "LEC1"></span></div>
+			<div id = "LargeGraphKeyEquation2" class = "largekeytext"><span id = "LET2"></span><span id = "LE2"></span><span id = "LEC2"></span></div>
+			<div id = "LargeGraphKeyEquation3" class = "largekeytext"><span id = "LET3"></span><span id = "LE3"></span><span id = "LEC3"></span></div>
+			<div id = "LargeGraphKeyEquation4" class = "largekeytext"><span id = "LET4"></span><span id = "LE4"></span><span id = "LEC4"></span></div>
+		</div>
+		
+		<!--<div id = "mailme">Please <a href="mailto:fmcculley@gmail.com">email</a> if you find any bugs.</div> -->
+		
+	</div>
+</div>
+
+
+</body>
+</html>
