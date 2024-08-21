@@ -25,4 +25,3 @@
     * [DPST 1071](/homework/DPST1071/)
     * [DPST 1081](/homework/DPST1081/)
     * [DPST 1091](/homework/DPST1091/)
-* [**更多帮助**](https://www.unsw.vip/#/help/)
